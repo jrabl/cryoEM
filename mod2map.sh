@@ -14,7 +14,7 @@ Arguments: -i path to atomic model
 
 Example: bash mod2map.sh -i input_model.pdb -a 0.65 -b 512
 
-Julius Rabl, ETH Zurich, 240717
+Julius Rabl, ETH Zurich, 240617
 -----------------------------------------------------------
 '
 printf "\n$program_message" 
