@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 """
+------------------------cryoSPARC-plot-download-script--------------------------------------------------
+
 Script for archiving refinement job data from CryoSPARC, in particular the png, pdf, xml, and txt files
 that would have to be downloaded manually from the refinement job page. This script logs into cryoSPARC,
 opens the page of the refinement job, and downloads the data files (txt, xml, bild) and plots (pdf, png)
@@ -11,7 +13,8 @@ Usage:
 Example:
     python cs_download.py "http://mars:42000/browse/P22-W11-J*#job(P22-J475)" -u username -p password
     
-Julius Rabl, ETH Zurich, 251202    
+Julius Rabl, ETH Zurich, 251202   
+--------------------------------------------------------------------------------------------------------
 """
 
 import argparse
